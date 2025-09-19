@@ -4,8 +4,9 @@ import { Footer, Header } from "@/components/layouts";
 import Preloader from "@/components/Preloader/Preloader";
 
 export const metadata = {
-  title: "Ayourluxe • ep Template",
-  description: "A simple, elegant, and powerful landing page.",
+  title: "Ayourluxe • Meilleures montres pour femmes",
+  description:
+    "Page d'accueil simple pour commander facilement via WhatsApp. Workflow rapide et efficace.",
 };
 
 export default function RootLayout({
@@ -15,6 +16,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <link rel="icon" type="image/icon" href="/favicon.ico" />
+      </head>
       <body>
         <Preloader />
         <Header />
