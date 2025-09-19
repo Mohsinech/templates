@@ -1,0 +1,84 @@
+/* [project]/app/app.module.css [app-client] (css) */
+.app-module__nFBcYG__main {
+  width: 100%;
+  height: 100%;
+}
+
+.app-module__nFBcYG__idea {
+  justify-content: space-between;
+  height: 100%;
+  padding: 1rem 2rem 5rem;
+  display: flex;
+}
+
+.app-module__nFBcYG__fst {
+  flex: 1;
+  display: flex;
+}
+
+.app-module__nFBcYG__fst .app-module__nFBcYG__subtitle {
+  color: #171717;
+  text-transform: uppercase;
+  letter-spacing: -.025rem;
+  font-family: sans, sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.app-module__nFBcYG__snd {
+  flex-direction: column;
+  flex: 1;
+  display: flex;
+}
+
+.app-module__nFBcYG__snd h1 {
+  color: #171717;
+  text-transform: uppercase;
+  font-family: mon, sans-serif;
+  font-size: 6rem;
+  font-weight: 600;
+  line-height: 1;
+}
+
+@media (max-width: 1024px) {
+  .app-module__nFBcYG__snd h1 {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 820px) {
+  .app-module__nFBcYG__idea {
+    flex-direction: column;
+    gap: 2.5rem;
+    display: flex;
+  }
+
+  .app-module__nFBcYG__snd h1 {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 620px) {
+  .app-module__nFBcYG__idea {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem 1rem 4rem;
+    display: flex;
+  }
+
+  .app-module__nFBcYG__snd h1 {
+    font-size: 2.7rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .app-module__nFBcYG__fst .app-module__nFBcYG__subtitle {
+    font-size: .75rem;
+  }
+
+  .app-module__nFBcYG__snd h1 {
+    font-size: 2.5rem;
+  }
+}
+
+/*# sourceMappingURL=app_app_module_css_bad6b30c._.single.css.map*/

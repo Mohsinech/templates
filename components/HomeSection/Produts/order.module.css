@@ -1,0 +1,275 @@
+/* Overlay */
+.overlay {
+  position: fixed;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  background: blanchedalmond;
+  backdrop-filter: blur(20px);
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Modal Container */
+.modal {
+  background: white;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+/* Close Button */
+.closeBtn {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  font-size: 0.8rem;
+  color: #171717;
+  cursor: pointer;
+  transition: color 0.2s ease;
+  font-family: "mon", sans-serif;
+  text-transform: uppercase;
+}
+
+.closeIcon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+/* Success State */
+.successBox {
+  width: 100%;
+  padding: 2.5rem;
+  text-align: center;
+  font-family: "mon", sans-serif;
+}
+.successTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #16a34a;
+  font-family: "mon", sans-serif;
+}
+.successText {
+  margin-top: 0.75rem;
+  color: #4b5563;
+  font-family: "mon", sans-serif;
+}
+
+/* Left Image */
+.imageBox {
+  position: relative;
+  width: 50%;
+}
+
+@media (min-width: 768px) {
+  .imageBox {
+    display: block;
+  }
+}
+.image {
+  object-fit: cover;
+}
+
+/* Right Form */
+.formBox {
+  width: 100%;
+  padding: 2rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .formBox {
+    width: 50%;
+  }
+}
+
+.productTitle {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  font-family: "mon", sans-serif;
+}
+
+.productPrice {
+  color: #8e8e8e;
+  margin-bottom: 1.5rem;
+  font-family: "sans", sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: 0.025rem;
+}
+
+/* Form */
+.form {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  font-size: 1.3rem;
+  font-family: "mon", sans-serif;
+  letter-spacing: 0.025rem;
+}
+
+.input::placeholder {
+  color: #7c7c7c;
+  transition: 0.5s all cubic-bezier(0.87, 0, 0.13, 1);
+  font-family: "mon", sans-serif;
+}
+
+.input:focus::placeholder {
+  opacity: 0;
+  transform: translateX(40%);
+}
+
+.submitBtn {
+  cursor: pointer;
+  background-color: #000;
+  color: white;
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+  justify-content: center;
+  font-family: "mon", sans-serif;
+  text-transform: uppercase;
+  padding: 0.7rem;
+  border-radius: 0.2rem;
+}
+
+/* Repsonsive */
+@media (max-width: 1024px) {
+  .modal {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .imageBox {
+    position: relative;
+    height: 80dvh;
+    width: 100%;
+  }
+
+  .form {
+    gap: 2.5rem;
+    padding-top: 3rem;
+  }
+
+  .formBox {
+    width: 100%;
+  }
+
+  .productTitle {
+    font-size: 3rem;
+  }
+
+  .productPrice {
+    font-size: 1.8rem;
+  }
+
+  .input {
+    font-size: 1.5rem;
+  }
+
+  .submitBtn {
+    font-size: 1.5rem;
+    letter-spacing: 0.045rem;
+  }
+
+  .closeBtn {
+    bottom: 8rem;
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 820px) {
+  .closeBtn {
+    bottom: 11rem;
+  }
+}
+
+@media (max-width: 768) {
+  .closeBtn {
+    bottom: 21rem;
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .formBox {
+    padding: 2rem 1rem;
+  }
+
+  .productTitle {
+    font-size: 1.8rem;
+    margin-bottom: 0.2rem;
+  }
+
+  .productPrice {
+    font-size: 1.3rem;
+  }
+
+  .closeBtn {
+    bottom: 11rem;
+    font-size: 0.8rem;
+  }
+
+  .form {
+    gap: 1.8rem;
+    padding-top: 1.2rem;
+  }
+
+  .input,
+  .submitBtn {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .productTitle {
+    font-size: 1.6rem;
+  }
+
+  .productPrice {
+    font-size: 1.1rem;
+  }
+
+  .imageBox {
+    height: 100dvh;
+    width: 100%;
+  }
+
+  .input {
+    padding-bottom: 1rem;
+  }
+
+  .closeBtn {
+    bottom: 20rem;
+    font-size: 0.8rem;
+  }
+
+  .form {
+    gap: 1.3rem;
+    padding-top: 1.2rem;
+  }
+
+  .input,
+  .submitBtn {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .closeBtn {
+    top: 5rem;
+  }
+}

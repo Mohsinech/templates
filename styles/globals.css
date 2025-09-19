@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Fonts */
+
+/* Neue Montreal */
+@font-face {
+  font-family: "mon";
+  src: url("/assets/fonts/montreal/NeueMontreal-Bold.woff2");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "mon";
+  src: url("/assets/fonts/montreal/NeueMontreal-Medium.woff2");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "mon";
+  src: url("/assets/fonts/montreal/NeueMontreal-Regular.woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "mon";
+  src: url("/assets/fonts/montreal/NeueMontreal-Light.woff2");
+  font-weight: 200;
+  font-style: normal;
+}
+
+/* General sans */
+@font-face {
+  font-family: "sans";
+  src: url("/assets/fonts/general/GeneralSans-Bold.otf");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "sans";
+  src: url("/assets/fonts/general/GeneralSans-Semibold.otf");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "sans";
+  src: url("/assets/fonts/general/GeneralSans-Medium.otf");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "sans";
+  src: url("/assets/fonts/general/GeneralSans-Regular.otf");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "sans";
+  src: url("/assets/fonts/general/GeneralSans-Light.otf");
+  font-weight: 200;
+  font-style: normal;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

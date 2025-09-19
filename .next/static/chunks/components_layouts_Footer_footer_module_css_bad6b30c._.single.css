@@ -1,0 +1,43 @@
+/* [project]/components/layouts/Footer/footer.module.css [app-client] (css) */
+.footer-module__lAm0Ya__footer {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  display: flex;
+  position: relative;
+}
+
+.footer-module__lAm0Ya__footer h1 {
+  color: #171717;
+  text-transform: uppercase;
+  font-family: mon, sans-serif;
+  font-size: 14.2vw;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.footer-module__lAm0Ya__content {
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 2rem;
+  padding: .5rem;
+  display: flex;
+}
+
+.footer-module__lAm0Ya__content p {
+  color: #616161;
+  letter-spacing: -.015rem;
+  font-family: mon, sans-serif;
+  font-size: 1rem;
+}
+
+@media (max-width: 400px) {
+  .footer-module__lAm0Ya__content {
+    flex-direction: column;
+    gap: .1rem;
+  }
+}
+
+/*# sourceMappingURL=components_layouts_Footer_footer_module_css_bad6b30c._.single.css.map*/

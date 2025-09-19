@@ -1,0 +1,36 @@
+/* [project]/components/HomeSection/Marquee/marquee.module.css [app-client] (css) */
+.marquee-module__WG4Wcq__wrapper {
+  white-space: nowrap;
+  color: #171717;
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-family: mon, sans-serif;
+  font-size: 10rem;
+  display: flex;
+  overflow: hidden;
+}
+
+.marquee-module__WG4Wcq__track {
+  text-align: center;
+  will-change: transform;
+  gap: 3rem;
+  transition: transform .1s linear;
+  display: inline-flex;
+}
+
+@media (max-width: 820px) {
+  .marquee-module__WG4Wcq__wrapper {
+    font-size: 8rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .marquee-module__WG4Wcq__wrapper {
+    padding: 2rem 0;
+    font-size: 5rem;
+  }
+}
+
+/*# sourceMappingURL=components_HomeSection_Marquee_marquee_module_css_bad6b30c._.single.css.map*/

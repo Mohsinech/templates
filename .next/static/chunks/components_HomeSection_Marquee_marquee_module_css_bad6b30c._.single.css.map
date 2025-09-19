@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/components/HomeSection/Marquee/marquee.module.css"],"sourcesContent":[".wrapper {\n  overflow: hidden;\n  white-space: nowrap;\n  width: 100%;\n  color: #171717;\n  font-family: \"mon\", sans-serif;\n  text-transform: uppercase;\n  font-size: 10rem;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.track {\n  text-align: center;\n\n  display: inline-flex;\n  gap: 3rem;\n  will-change: transform;\n  transition: transform 0.1s linear;\n}\n\n/* Responsive  */\n@media (max-width: 820px) {\n  .wrapper {\n    font-size: 8rem;\n  }\n}\n\n@media (max-width: 600px) {\n  .wrapper {\n    font-size: 5rem;\n    padding: 2rem 0;\n  }\n}\n"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;AAaA;;;;;;;;AAUA;EACE;;;;;AAKF;EACE"}}]
+}

@@ -1,0 +1,106 @@
+.header,
+.Tabheader {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  padding: 0.6rem 2rem;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo h1 {
+  color: #000;
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-family: "mon", sans-serif;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.nav {
+  display: flex;
+  justify-content: start;
+}
+
+.nav ul {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  gap: 1rem;
+}
+
+.nav ul li .a,
+.time h1,
+.insta {
+  color: #000;
+  font-size: 0.9rem;
+  position: relative;
+  font-family: "mon", sans-serif;
+  text-transform: uppercase;
+}
+
+.nav ul li .a::after,
+.insta::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: #000;
+  left: 0;
+  bottom: 2px;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s cubic-bezier(0.65, 0.05, 0, 1);
+  font-family: "mon", sans-serif;
+  letter-spacing: -0.025rem;
+}
+
+.nav ul li .a:hover::after,
+.a:hover::after,
+.insta:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.time {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+/* Responsive */
+@media (min-width: 1025px) {
+  .Tabheader,
+  .Mobheader {
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  .header {
+    display: none;
+  }
+}
+
+@media (min-width: 600px) {
+  .Mobheader {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .Tabheader {
+    display: none;
+  }
+
+  .Mobheader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.6rem 1rem;
+  }
+}

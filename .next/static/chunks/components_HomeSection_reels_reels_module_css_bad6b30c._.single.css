@@ -1,0 +1,61 @@
+/* [project]/components/HomeSection/reels/reels.module.css [app-client] (css) */
+.reels-module__sitNdW__reels {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 3rem 2rem;
+  display: flex;
+}
+
+.reels-module__sitNdW__grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  width: 100%;
+  display: grid;
+}
+
+.reels-module__sitNdW__reel {
+  border-radius: 1rem;
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+}
+
+.reels-module__sitNdW__reel video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 1024px) {
+  .reels-module__sitNdW__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .reels-module__sitNdW__reel {
+    height: 700px;
+  }
+}
+
+@media (max-width: 820px) {
+  .reels-module__sitNdW__grid {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  .reels-module__sitNdW__reel {
+    height: 90vh;
+  }
+}
+
+@media (max-width: 600px) {
+  .reels-module__sitNdW__reels {
+    padding: 0 1rem 2rem;
+  }
+
+  .reels-module__sitNdW__reel {
+    height: 70vh;
+  }
+}
+
+/*# sourceMappingURL=components_HomeSection_reels_reels_module_css_bad6b30c._.single.css.map*/

@@ -1,0 +1,37 @@
+/* [project]/components/HomeSection/Hero/hero.module.css [app-client] (css) */
+.hero-module__CBejpG__hero {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 90dvh;
+  display: flex;
+}
+
+.hero-module__CBejpG__wrapper {
+  background-image: url("/assets/images/hero.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  margin: 0 2rem;
+  position: relative;
+}
+
+@media (max-width: 1024px) {
+  .hero-module__CBejpG__hero {
+    height: 70dvh;
+  }
+}
+
+@media (max-width: 620px) {
+  .hero-module__CBejpG__hero {
+    height: 80dvh;
+  }
+
+  .hero-module__CBejpG__wrapper {
+    margin: 0 1rem;
+  }
+}
+
+/*# sourceMappingURL=components_HomeSection_Hero_hero_module_css_bad6b30c._.single.css.map*/

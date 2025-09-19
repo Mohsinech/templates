@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/components/HomeSection/Hero/hero.module.css"],"sourcesContent":[".hero {\n  width: 100%;\n  height: 90dvh;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.wrapper {\n  margin: 0 2rem;\n  position: relative;\n  width: 100%;\n  height: 100%;\n  background-image: url(\"/assets/images/hero.jpg\");\n  background-size: cover;\n  background-position: center;\n  background-repeat: no-repeat;\n}\n\n/* Responsive */\n@media (max-width: 1024px) {\n  .hero {\n    height: 70dvh;\n  }\n}\n\n@media (max-width: 620px) {\n  .hero {\n    height: 80dvh;\n  }\n\n  .wrapper {\n    margin: 0 1rem;\n  }\n}\n"],"names":[],"mappings":"AAAA;;;;;;;;AAQA;;;;;;;;;;;AAYA;EACE;;;;;AAKF;EACE;;;;EAIA"}}]
+}

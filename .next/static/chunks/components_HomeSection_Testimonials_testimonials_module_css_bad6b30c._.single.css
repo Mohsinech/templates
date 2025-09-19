@@ -1,0 +1,119 @@
+/* [project]/components/HomeSection/Testimonials/testimonials.module.css [app-client] (css) */
+.testimonials-module__w08u9W__testimonials {
+  flex-direction: column;
+  gap: 4rem;
+  width: 100%;
+  height: 100%;
+  padding: 5rem 2rem;
+  display: flex;
+}
+
+.testimonials-module__w08u9W__container {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.testimonials-module__w08u9W__container h1 {
+  letter-spacing: -.025rem;
+  font-family: mon, sans-serif;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.testimonials-module__w08u9W__container p {
+  color: #333;
+  font-family: sans, sans-serif;
+  font-size: 1.2rem;
+}
+
+.testimonials-module__w08u9W__testimonialsList {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  width: 100%;
+  display: grid;
+}
+
+.testimonials-module__w08u9W__testimonialCard {
+  background-color: #f5f5f5;
+  border-radius: 1rem;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 350px;
+  height: 450px;
+  margin: 0 .3rem;
+  padding: 2rem 1.5rem;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.testimonials-module__w08u9W__fallback {
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  z-index: 100000000ç;
+  background-color: #ccc;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  display: flex;
+}
+
+.testimonials-module__w08u9W__review {
+  font-family: sans, sans-serif;
+  font-size: 1.2rem;
+  line-height: normal;
+}
+
+.testimonials-module__w08u9W__icon {
+  margin-bottom: 1rem;
+}
+
+.testimonials-module__w08u9W__flex {
+  border-left: 1px solid #ccc;
+  flex-direction: column;
+  padding-left: 1rem;
+  display: flex;
+}
+
+.testimonials-module__w08u9W__flex h3 {
+  color: #171717;
+  font-family: mon, sans-serif;
+  font-size: 1.2rem;
+}
+
+.testimonials-module__w08u9W__flex p {
+  color: #7e7e7e;
+  font-family: sans, sans-serif;
+  font-size: .9rem;
+}
+
+@media (max-width: 600px) {
+  .testimonials-module__w08u9W__testimonials {
+    padding: 3rem 1rem;
+  }
+
+  .testimonials-module__w08u9W__container {
+    gap: 1rem;
+  }
+
+  .testimonials-module__w08u9W__container h1 {
+    text-align: center;
+    width: 80%;
+    font-size: 2rem;
+    line-height: normal;
+  }
+
+  .testimonials-module__w08u9W__container p {
+    font-size: 1rem;
+  }
+
+  .testimonials-module__w08u9W__testimonialCard {
+    width: 300px;
+    height: 400px;
+  }
+}
+
+/*# sourceMappingURL=components_HomeSection_Testimonials_testimonials_module_css_bad6b30c._.single.css.map*/

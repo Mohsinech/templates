@@ -1,0 +1,100 @@
+/* [project]/components/layouts/Header/header.module.css [app-client] (css) */
+.header-module__6gErgG__header, .header-module__6gErgG__Tabheader {
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  padding: .6rem 2rem;
+  display: grid;
+}
+
+.header-module__6gErgG__logo {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.header-module__6gErgG__logo h1 {
+  color: #000;
+  text-transform: uppercase;
+  font-family: mon, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+.header-module__6gErgG__nav {
+  justify-content: start;
+  display: flex;
+}
+
+.header-module__6gErgG__nav ul {
+  justify-content: start;
+  align-items: start;
+  gap: 1rem;
+  display: flex;
+}
+
+.header-module__6gErgG__nav ul li .header-module__6gErgG__a, .header-module__6gErgG__time h1, .header-module__6gErgG__insta {
+  color: #000;
+  text-transform: uppercase;
+  font-family: mon, sans-serif;
+  font-size: .9rem;
+  position: relative;
+}
+
+.header-module__6gErgG__nav ul li .header-module__6gErgG__a:after, .header-module__6gErgG__insta:after {
+  content: "";
+  transform-origin: 100%;
+  letter-spacing: -.025rem;
+  background-color: #000;
+  width: 100%;
+  height: 1px;
+  font-family: mon, sans-serif;
+  transition: transform .3s cubic-bezier(.65, .05, 0, 1);
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+  transform: scaleX(0);
+}
+
+.header-module__6gErgG__nav ul li .header-module__6gErgG__a:hover:after, .header-module__6gErgG__a:hover:after, .header-module__6gErgG__insta:hover:after {
+  transform-origin: 0;
+  transform: scaleX(1);
+}
+
+.header-module__6gErgG__time {
+  justify-content: end;
+  align-items: center;
+  display: flex;
+}
+
+@media (min-width: 1025px) {
+  .header-module__6gErgG__Tabheader, .header-module__6gErgG__Mobheader {
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  .header-module__6gErgG__header {
+    display: none;
+  }
+}
+
+@media (min-width: 600px) {
+  .header-module__6gErgG__Mobheader {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .header-module__6gErgG__Tabheader {
+    display: none;
+  }
+
+  .header-module__6gErgG__Mobheader {
+    justify-content: space-between;
+    align-items: center;
+    padding: .6rem 1rem;
+    display: flex;
+  }
+}
+
+/*# sourceMappingURL=components_layouts_Header_header_module_css_bad6b30c._.single.css.map*/
